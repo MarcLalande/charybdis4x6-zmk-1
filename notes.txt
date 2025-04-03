@@ -1,4 +1,6 @@
 HeeTuic
+feature-test branch last updated in 2023
+
 
 
 https://zmk.dev/docs/development/hardware-integration/new-shield?interconnect=pro_micro
