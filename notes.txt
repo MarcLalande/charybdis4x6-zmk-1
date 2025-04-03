@@ -1,10 +1,4 @@
 HeeTuic
-CONFIG_BT_L2CAP_TX_BUF_COUNT=32
-
-
-
-
-
 
 nice!nano v2 board back side
 

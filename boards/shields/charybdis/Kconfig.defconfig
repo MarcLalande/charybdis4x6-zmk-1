@@ -1,6 +1,6 @@
-if SHIELD_MY_KEYBOARD_LEFT
+if SHIELD_CHARYBDIS_RIGHT
 
-# Name must be less than 16 characters long!
+# Name must be less than 16 chars 
 config ZMK_KEYBOARD_NAME
     default "Charybids 4x6"
 
