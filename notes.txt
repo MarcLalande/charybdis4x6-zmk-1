@@ -1,5 +1,10 @@
 HeeTuic
 
+
+https://zmk.dev/docs/development/hardware-integration/new-shield?interconnect=pro_micro
+
+
+
 nice!nano v2 board back side
 
 arduino pin#
