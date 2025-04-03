@@ -1,0 +1,48 @@
+HeeTuic
+CONFIG_BT_L2CAP_TX_BUF_COUNT=32
+
+
+
+
+
+
+nice!nano v2 board back side
+
+arduino pin#
+10	16	14	15	18		19	20	21	vcc	rst		gnd	raw
+
+---------------------------------------------------------------
+9	10	?	?	1.15	2	29	3	vcc	reset	gnd	b+	?
+	col2?	rgb	rbg
+
+
+                                                            ______
+                                                            |USB-C
+                                                            |_____
+1.08	7	1.02
+	col4?
+
+19	21	23	12
+col0?
+
+1.06	1.04	11	1.00	24	22	20	17	gnd	gnd	8	6	gnd
+						col1?				col5?	col3?
+----------------------------------------------------------------
+
+arduino pin#
+9		8		7	6		5	4	3	2	gnd gnd	0	1
+
+break out board
+
+spi
+
+nolabel	miso	sclk	mosi	cs	vcc
+gnd	6	8	17	20	vcc
+
+
+matrix
+	r2	c1	c2	r1	c3
+	1.15	2	29	31	9
+
+r5	c6	c5	c4	r3	r4
+1.06	1.04	11	1.00	24	22
