@@ -1,10 +1,7 @@
 HeeTuic
 feature-test branch last updated in 2023
 
-
-
 https://zmk.dev/docs/development/hardware-integration/new-shield?interconnect=pro_micro
-
 
 
 nice!nano v2 board back side
@@ -16,8 +13,6 @@ arduino pin#
 9	10	?	?	1.15	2	29	3	vcc	reset	gnd	b+	?
 	col2?	rgb	rbg
 
-
-                                                            ______
                                                             |USB-C
                                                             |_____
 1.08	7	1.02
@@ -33,17 +28,34 @@ col0?
 arduino pin#
 9		8		7	6		5	4	3	2	gnd gnd	0	1
 
+
 break out board
+https://github.com/280Zo/charybdis-wireless-mini-3x6-build-guide
 
 spi
 
-nolabel	miso	sclk	mosi	cs	vcc
-gnd	6	8	17	20	vcc
+nolabel	miso	sclk	mosi	cs	vcc	(breakout board)
+gnd		6		8		17		20	vcc
 
 
 matrix
-	r2	c1	c2	r1	c3
-	1.15	2	29	31	9
+r2	c1	c2	r1	c3
+1.15	2	29	31	9 (breakout board)
 
 r5	c6	c5	c4	r3	r4
-1.06	1.04	11	1.00	24	22
+1.06	1.04	11	1.00	24	22 (breakout board)
+
+col		breakout
+19	 	c1
+20	 	c2
+10		c3
+6		c4
+7		c5
+8		c6
+
+row
+21		r1
+18		r2
+5		r3
+4		r4
+9		r5
