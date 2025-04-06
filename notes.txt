@@ -12,7 +12,7 @@ arduino pin#
 ---------------------------------------------------------------
 9	10	?	?	1.15	2	29	3	vcc	reset	gnd	b+	?
 	col2?	rgb	rbg
-
+															______
                                                             |USB-C
                                                             |_____
 1.08	7	1.02
@@ -45,6 +45,8 @@ r2	c1	c2	r1	c3
 r5	c6	c5	c4	r3	r4
 1.06	1.04	11	1.00	24	22 (breakout board)
 
+
+(from zmk source)
 col		breakout
 19	 	c1
 20	 	c2
