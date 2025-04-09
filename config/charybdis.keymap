@@ -64,7 +64,7 @@
             bindings = <
 &none        &none         &none         &none         &none      &none                 &none       &none       &none           &none           &none         &none
 &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR            &bt BT_CLR  &none       &bt BT_SEL 2    &bt BT_SEL 1    &bt BT_SEL 0  &none
-&none        &trans        &trans        &mkp MCLK     &trans     &none                 &none       &mkp LCLK   &mks SCRL_UP    &mks RCLK       &trans        &none
+&none        &trans        &trans        &mkp MCLK     &trans     &none                 &none       &mkp LCLK   &mks SCRL_UP    &none           &trans        &none
 &bootloader  &trans        &mkp RCLK     &mo 4         &mkp LCLK  &mo 5                 &mo 5       &mkp LCLK   &mks SCRL_DOWN  &mkp RCLK       &trans        &bootloader
                                          &mo 5         &mkp LCLK  &mkp RCLK             &mkp RCLK   &mkp LCLK
                                                        &none      &trans                &trans
