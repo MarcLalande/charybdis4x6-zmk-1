@@ -51,10 +51,10 @@
 
         layer_2 {
             bindings = <
-&kp F12           &kp F1      &kp F2      &kp F3         &kp F4         &kp F5                  &kp F6          &kp F7          &kp F8    &kp F9        &kp F10     &kp PRINTSCREEN
-&kp LS(GRAVE)     &kp LS(N1)  &kp LS(N2)  &kp LS(N3)     &kp LS(N4)     &kp LS(LBKT)            &kp LS(RBKT)    &none           &trans    &none         &none       &kp PAGE_UP
+&kp ESC           &kp F1      &kp F2      &kp F3         &kp F4         &kp F5                  &kp F6          &kp F7          &kp F8    &kp F9        &kp F10     &kp PRINTSCREEN
+&kp LS(GRAVE)     &kp LS(N1)  &kp LS(N2)  &kp LS(N3)     &kp LS(N4)     &kp LS(LBKT)            &kp LS(RBKT)    &none           &none     &kp LBKT      &kp RBKT    &kp PAGE_UP
 &kp LCTRL         &kp LS(N5)  &kp LS(N6)  &kp LS(N7)     &kp LS(N8)     &none                   &kp LS(BSLH)    &kp LEFT        &kp UP    &kp DOWN      &kp RIGHT   &kp PAGE_DOWN
-&kp LEFT_SHIFT    &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS)  &kp LS(EQUAL)  &none                   &kp PLUS        &kp MINUS       &kp EQUAL &kp LBKT      &kp RBKT    &kp BACKSLASH
+&trans            &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS)  &kp LS(EQUAL)  &none                   &kp PLUS        &kp MINUS       &kp EQUAL &kp LBRC      &kp RBRC    &kp BACKSLASH
                                           &kp LEFT_ALT   &kp SPACE      &kp ENTER               &trans          &kp BACKSPACE
                                                          &trans         &trans                  &none
             >;
